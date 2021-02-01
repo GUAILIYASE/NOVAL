@@ -1,0 +1,10 @@
+<view class="d-f j-b bgc-w an-c">
+  <view class="ml30" bindtap="goto">{{"定位中..."}}</view>
+  <view class="br d-f w-70 bgc an-c mr30 mt20 mb20" >
+    <image src='/static/search.png' class="w-10 h50 ml10"></image>
+    <input type="text" bindinput="getvalue" value="{{value}}" placeholder="搜索" class="w-80"   />
+  </view>
+  
+</view>
+
+

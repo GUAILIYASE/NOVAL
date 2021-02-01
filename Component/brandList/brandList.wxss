@@ -1,0 +1,8 @@
+@import '../../app.wxss';
+.fs1{
+  font-size: 28rpx;
+}
+.fs2{
+  font-size: 26rpx;
+  color: rgb(179, 177, 177);
+}

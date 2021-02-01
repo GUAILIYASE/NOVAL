@@ -1,0 +1,20 @@
+.input{
+  height: 100rpx;
+  background-color: rgb(224, 221, 221);
+  margin: 30rpx auto;
+  border-radius: 50rpx;
+}
+.address{
+  height: 140rpx;
+  border-bottom: 2rpx solid rgb(182, 181, 181);
+}
+.fs1{
+  font-size: 36rpx;
+}
+.fs2{
+  font-size: 26rpx;
+  color: rgb(185, 184, 184);
+}
+.dn{
+  display: none;
+}

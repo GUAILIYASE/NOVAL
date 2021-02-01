@@ -1,0 +1,12 @@
+<view class="pdt30 pdb30 d-f an-c j-c mt30 mb20">专题精选</view>
+<scroll-view scroll-x="true">
+  <view class="d-f">
+    <view wx:for="{{topicList}}" wx:key="index" class="mr20" style="width:640rpx">
+      <view>
+        <image src="{{item.item_pic_url}}"></image>
+      </view>
+      <view class="pdt30 pdb30">{{item.title}} <text class="cr ml20">￥{{item.price_info}}元起</text></view>
+      <view class="fs pdb30 fstyle">{{item.subtitle}}</view>
+    </view>
+  </view>
+</scroll-view>

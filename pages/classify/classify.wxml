@@ -1,0 +1,33 @@
+<view class="d-f inp w-90 an-c">
+  <image src="/static/search.png" style="width:50rpx;height:50rpx" class="ml10"></image>
+  <input type="text" placeholder="请输入商品" class="w-90 text" />
+</view>
+<view class="d-f">
+  <view class="w-20">
+    <view wx:for="{{tab}}" class="{{active===index?'activetab':''}} tab" bindtap="getactive" data-index="{{index}}"
+      wx:key='index'>
+      {{item.name}}
+    </view>
+  </view>
+  <view class="w-80 d-fc an-c">
+    <scroll-view scroll-y="true" style="height:980rpx"  scroll-top='{{scrolltop}}'>
+      <view class="m-a w-90 p-r d-f j-c an-c" style="height:240rpx">
+        <image src="{{showlist.banner_url}}" class="p-a w-max h-max"></image>
+        <view class="fc p-r z1">{{showlist.front_desc}}</view>
+      </view>
+      <view class="d-f j-c an-c mt30 mb30 " wx:if="{{showlist.name}}">
+        <view class="border"></view>
+        {{showlist.name}}
+        <view class="border"></view>
+      </view>
+      <view class="w-max d-f warp">
+        <view class="w-33 d-fc j-c an-c mt20 " wx:for="{{showlist.subList}}" wx:key="index" bindtap="gocategory" data-index="{{index}}">
+          <image src="{{item.wap_banner_url}}" class="img"></image>
+          <view>{{item.name}}</view>
+        </view>
+      </view>
+    </scroll-view>
+
+
+  </view>
+</view>

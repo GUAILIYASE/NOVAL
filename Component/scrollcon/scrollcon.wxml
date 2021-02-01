@@ -1,0 +1,12 @@
+<scroll-view scroll-x="true">
+  <view class="d-f">
+    <view wx:for="{{newGoods}}" wx:key="index" style="width:320rpx" data-item="{{item}}" bindtap="godetail" >
+      <view >
+        <image src="{{item.list_pic_url}}" class="img"></image>
+      </view>
+      <view class="fstyle fs1">{{item.name}}</view>
+      <view class="fstyle fs2">{{item.goods_brief}}</view>
+      <view class="cr">￥{{item.retail_price}}</view>
+    </view>
+  </view>
+</scroll-view>

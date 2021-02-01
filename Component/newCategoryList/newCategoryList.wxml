@@ -1,0 +1,14 @@
+<view wx:for="{{newCategoryList}}" wx:key="index" class="bgc">
+  <view class="d-f j-c an-c pdb30 pdt30">{{item.name}}</view>
+  <view class="d-f warp">
+    <view wx:for="{{item.goodsList}}" wx:for-item="im" style="width:350rpx" class="d-fc an-c bgc-w ml10 mr10 mt10 mb10" wx:key='im' >
+      <view> <image src="{{im.list_pic_url}}" style="width:375rpx;height:300rpx"></image></view>
+      <view class="fstyle " style="width:350rpx" >{{im.name}}</view>
+      <view class="cr">￥{{im.retail_price}}</view>
+    </view>
+    <view  class="d-fc an-c" style="width:350rpx;height:388rpx" class="d-f j-c an-c bgc-w  ml10 mr10 mt10 mb10" bindtap="gotoclassify" data-index="{{index}}" >
+      <view class="mr10">{{item.name}}</view><image src="/static/more.png" style="height:60rpx;width:60rpx"></image><view></view>
+    </view>
+  </view>
+  <view class="w-max pdb30 bgc-w mt30"></view>
+</view>

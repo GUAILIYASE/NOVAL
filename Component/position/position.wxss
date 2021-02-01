@@ -1,0 +1,9 @@
+@import "../../app.wxss";
+
+.bgc{
+  background-color: rgb(218, 217, 217);
+  height: 80rpx ;
+}
+.br{
+  border-radius: 40rpx;
+}

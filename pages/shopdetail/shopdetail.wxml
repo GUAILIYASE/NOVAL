@@ -1,0 +1,5 @@
+<swiper style="height:500rpx" duration="3000" indicator-dots circular>
+  <swiper-item wx:for="{{shopdata.gallery}}" wx:key="index">
+    <image src="{{item.img_url}}" class="w-max"></image>
+  </swiper-item>
+</swiper>

@@ -1,0 +1,10 @@
+@import '../../app.wxss';
+.fstyle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+.bgc{
+  background-color: rgb(219, 217, 217);
+}

@@ -1,0 +1,6 @@
+<view class="d-f mt30">
+  <view wx:for="{{channel}}" wx:key="index" class="f1 d-fc j-c an-c" bindtap="gotochannel" data-index="{{index}}" data-id="{{item.id}}">
+    <image src="{{item.icon_url}}" class="w-50 h80"></image>
+    <view>{{item.name}}</view>
+  </view>
+</view>

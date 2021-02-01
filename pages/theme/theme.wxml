@@ -1,0 +1,11 @@
+
+<scroll-view bindscrolltolower='scrolltolower' style="height:1150rpx" scroll-y="true">
+  <view>
+    <view wx:for="{{topic}}" wx:key='index' class="d-fc j-c an-c mb30" bindtap="goto" data-detail="{{item}}">
+      <image src="{{item.scene_pic_url}}" class="w-max"></image>
+      <view class="mt30 ">{{item.title}}</view>
+      <view class="mt10 fstyle">{{item.subtitle}}</view>
+      <view class="cr mt10">￥{{item.price_info}}元起</view>
+    </view>
+  </view>
+</scroll-view>

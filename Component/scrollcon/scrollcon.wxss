@@ -1,0 +1,19 @@
+@import '../../app.wxss';
+
+.img {
+  width: 320rpx !important;
+  height: 320rpx !important;
+}
+
+.fstyle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fs1{
+  font-size: 28rpx;
+}
+.fs2{
+  font-size: 26rpx;
+  color: rgb(180, 178, 178);
+}

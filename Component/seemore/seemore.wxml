@@ -1,0 +1,4 @@
+<view class="d-fc j-c an-c h  fc mt30 mb30" style="background:{{color}}" >
+  <view class="mb30">{{title}}</view>
+  <button  class=" fc1" style="background:{{color1}}" bindtap="gomore">查看更多</button>
+</view>

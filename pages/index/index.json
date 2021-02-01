@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "banner":"/Component/banner/banner",
+    "position":"/Component/position/position",
+    "channel":"/Component/channel/channel",
+    "brandList":"/Component/brandList/brandList",
+    "scrollcon":"/Component/scrollcon/scrollcon",
+    "topicList":"/Component/topicList/topicList",
+    "newCategoryList":"/Component/newCategoryList/newCategoryList",
+    "seemore":"/Component/seemore/seemore"
+  }
+}

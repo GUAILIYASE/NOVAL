@@ -1,0 +1,18 @@
+<view class="p-r">
+  <view class="input d-f j-c an-c p-r z-max">
+  <image src="/static/search.png" style="width:60rpx;height:60rpx" class="ml30"></image>
+  <input type="text" value="{{search}}" class="w-90 tx-c" bindinput="getvalue" bindconfirm="searchsome" />
+</view>
+<map id="myMap" markers="{{markers}}" style="width:100%;height:1000rpx;" longitude="{{markers[active].longitude}}"
+  latitude="{{markers[active].latitude}}" scale='16' show-location >
+</map>
+<view style="width:100%" class="p-a z-1 tp140 bgc-w" wx:if="{{flag}}">
+  <view wx:for="{{markers}}" wx:key='index' class="address d-fc j-c pdl30" bindtap="goaddress" data-index='{{index}}'>
+    <view>
+      <view wx:if="{{index===0}}">当前位置</view>
+      <view class="fs1">{{item.title}}</view>
+      <view class="fs2">{{item.address}}</view>
+    </view>
+  </view>
+</view>
+</view>

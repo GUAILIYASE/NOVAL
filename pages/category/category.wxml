@@ -1,0 +1,26 @@
+<scroll-view scroll-x="true" scroll-into-view="{{'s'+(active-1)}}" scroll-with-animation wx:if="{{nav}}">
+  <view class="wn ml30">
+    <view wx:for="{{nav}}" wx:key='index' class="nav d-ib tac {{active===index?'activetype':''}} pdb30 pdt30"
+      bindtap="getindex" data-index="{{index}}" id='{{"s"+index}}'>
+      {{item.name}}
+    </view>
+  </view>
+</scroll-view>
+<scroll-view scroll-top='{{scrolltop}}' style="height:1100rpx" scroll-y="true">
+  <view class=" bgc pdt30" style="">
+    <view class="bgc-w d-fc j-c an-c pd30 bb">
+      <view>{{nav[active].name}}</view>
+      <view>{{nav[active].front_desc}}</view>
+    </view>
+    <view class="d-f warp " wx:if="{{data.length}}">
+      <view class="w-50 bgc-w {{(index+1)%2?'bb':'bb1'}}" wx:for="{{data}}" wx:key='index'>
+        <image src="{{item.list_pic_url}}" class="img"></image>
+        <view class="fstyle tx-c mt20">{{item.name}}</view>
+        <view class="cr tx-c pd30">￥{{item.retail_price}}</view>
+      </view>
+    </view>
+    <view class="tx-c bgc-w" wx:else>
+      暂无商品
+    </view>
+  </view>
+</scroll-view>

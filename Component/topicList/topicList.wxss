@@ -1,0 +1,10 @@
+@import '../../app.wxss';
+.fs{
+  font-size: 26rpx;
+  color: rgb(167, 167, 167);
+}
+.fstyle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

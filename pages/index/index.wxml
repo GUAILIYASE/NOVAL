@@ -1,0 +1,14 @@
+<position></position>
+<button open-type="getUserInfo" >111</button>
+<button  bindtap="getcode">111</button>
+<banner banner="{{data.banner}}" ></banner>
+<channel channel="{{data.channel}}" ></channel>
+<brandList brandList="{{data.brandList}}" ></brandList>
+<seemore title='新品首发' color='#F1F7FC' color1='#D8E4F0'></seemore>
+<scrollcon newGoods='{{data.newGoods}}'></scrollcon>
+<seemore title='人物推荐，好物精选' color='#FCF4DD' color1='#F3E9CB'></seemore>
+<scrollcon newGoods='{{data.hotGoods}}'></scrollcon>
+<topicList topicList='{{data.topicList}}'></topicList>
+<newCategoryList newCategoryList='{{data.newCategoryList}}'></newCategoryList>
+
+

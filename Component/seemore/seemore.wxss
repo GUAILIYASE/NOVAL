@@ -1,0 +1,16 @@
+.h{
+  height: 300rpx;
+}
+@import '../../app.wxss';
+.bgc1{
+  background-color: rgb(175, 223, 235);
+}
+.bgc2{
+  background-color: rgb(132, 194, 209);
+}
+.fc{
+  color: rgb(167, 161, 161);
+}
+.fc1{
+  color: rgb(150, 147, 147);
+}

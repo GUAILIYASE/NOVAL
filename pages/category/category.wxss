@@ -1,0 +1,23 @@
+.nav{
+  width: 200rpx !important;
+  font-size: 28rpx;
+}
+.activetype{
+  color: red;
+  border-bottom: 4rpx solid red;
+}
+.bgc{
+  background-color: rgb(231, 230, 230);
+}
+.img{
+  width: 375rpx;
+  height: 300rpx;
+}
+.bb1{
+  border-bottom: 1rpx solid rgb(187, 187, 187);
+}
+.bb{
+  border-bottom: 1rpx solid rgb(187, 187, 187);
+  border-right: 1rpx solid rgb(187, 187, 187);
+  box-sizing: border-box;
+}

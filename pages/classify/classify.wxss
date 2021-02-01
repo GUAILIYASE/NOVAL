@@ -1,0 +1,34 @@
+.inp{
+  background: rgb(223, 222, 222);
+  margin:30rpx auto;
+  height: 70rpx;
+  border-radius: 35rpx;
+}
+.text{
+  text-align: center;
+}
+.tab{
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.activetab{
+  font-size: 36rpx;
+  color: red;
+  border-left: 6rpx solid red;
+  box-sizing: border-box;
+}
+.fc{
+  color: white;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.border{
+  width: 100rpx;
+  height: 4rpx;
+  background-color: black;
+}
+.img{
+  width: 200rpx;
+  height: 200rpx;
+}

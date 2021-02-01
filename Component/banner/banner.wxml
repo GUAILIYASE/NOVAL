@@ -1,0 +1,5 @@
+<swiper autoplay circular interval='1000' style="height:400rpx">
+  <swiper-item wx:for="{{banner}}" wx:key="index"  >
+    <image src="{{item.image_url}}" class="w-max h-max"></image>
+  </swiper-item>
+</swiper>

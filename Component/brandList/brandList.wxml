@@ -1,0 +1,10 @@
+<view class="d-f j-c an-c pdt30 pdb20 ">品牌制造商特供</view>
+<view class="d-f warp j-a">
+  <view wx:for="{{brandList}}" wx:key="index" class="w-50 d-f j-c an-c mt20 p-r">
+    <image src="{{item.new_pic_url}}" class="w-95" style="height:338rpx"></image>
+    <view class="p-a tp0 lt0 pd30">
+      <view class="fs1">{{item.name}}</view>
+      <view class="fs2">{{item.floor_price}}元起</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<view class="w-max bgc d-f j-b an-c" >
+  <view class="d-f an-c ml30">
+    <image src='{{user.avatarUrl}}' class="avator"></image>
+    <view class="cw fs1 ml30">{{user.nickName}}</view>
+  </view>
+  <view class="mr20"><van-icon name="arrow" class="icon" /></view>
+</view>
+<view class="d-f warp">
+  <view class="w-33 d-fc an-c orderitem j-c {{(index+1)%3?'border':'border1'}}" wx:for="{{order}}" wx:key="index" >
+    <view><van-icon name="{{item.icon}}" class="icon1" /></view> 
+    <view>{{item.name}}</view> 
+  </view>
+</view>
